@@ -46,7 +46,7 @@ Computer architecture, Operating system, Hybrid memory system
 
 ## Awards and Scholarships
 
-**Higest Honors Student Award**<br>
+**Highest Honors Student Award**<br>
 **Yonsei University** (Feb. 2021)<br>
 
 **Honors Student Award**<br>
@@ -58,7 +58,7 @@ Computer architecture, Operating system, Hybrid memory system
 **Outstanding Talent Scholarship**<br>
 **Seoul Scholarship Foundation** (Jan. 2020 - Dec. 2020)<br>
 
-**Higest Honors Student Award**<br>
+**Highest Honors Student Award**<br>
 **Yonsei University** (Aug. 2019)<br>
 
 **High Honors Student Award**<br>

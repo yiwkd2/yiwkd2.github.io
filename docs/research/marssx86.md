@@ -40,6 +40,9 @@ $ gdb qemu/qemu-system-x86-64
 
 this process can be automated by creating .gdbinit file in the project repo.
 
+I just created .gdbinit only contains handle command because I need to set breakpoint before run the simulator.
+I wanted to automate runing with arguments but this is not a good solution for that.
+
 ### qemu version conflict
 
 the original [source code](https://github.com/donggyukim/Marssx86) has a build erorr caused by deprecated qemu functions.

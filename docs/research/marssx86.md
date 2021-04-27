@@ -40,8 +40,14 @@ $ gdb qemu/qemu-system-x86-64
 
 this process can be automated by creating .gdbinit file in the project repo.
 
-I just created .gdbinit only contains handle command because I need to set breakpoint before run the simulator.
-I wanted to automate runing with arguments but this is not a good solution for that.
+I just created .gdbinit only contains handle command because I need to set breakpoint manually
+before run the simulator.<br>
+GDB has an auto-load safe for security reason, so I created ~/.gdbinit file as shown below.
+```
+set auto-load safe-path /
+```
+
+I wanted to automate runing with arguments, hence this is not a good solution for that.
 
 ### qemu version conflict
 

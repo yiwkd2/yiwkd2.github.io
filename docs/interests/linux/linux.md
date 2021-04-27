@@ -6,6 +6,13 @@ has_children: true
 permalink: /docs/interests/linux
 ---
 
-# Linux
+## Linux
 
+### environment
 
+- /etc/inputrc
+- ~/.config/nvim/init.vim
+- ~/.vim
+- ~/.bashrc
+- ~/.gdbinit
+- ~/.gitconfig

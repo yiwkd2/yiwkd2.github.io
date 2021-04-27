@@ -18,8 +18,25 @@ grand_parent: Research
 
 ## 2021
 
-### Simulator
+### Debugging
 
-date: 04/26
+[marssx86 official website](http://marss86.org/~marss86/index.php/Getting_Started) describes how to run simulator under gdb.
+
+```
+$ gdb qemu/qemu-system-x86-64
+(gdb) handle SIGUSR1 SIGUSR2 noprint nostop
+run -m ~~
+```
+
+this process can be automated by creating .gdbinit file in the project repo.
+
+### qemu version conflict
+
+the original [source code](https://github.com/donggyukim/Marssx86) has a build erorr caused by deprecated qemu functions.
+I fixed it and uploaded it on my github private repo.
+
+date: 04/27
+
+
 
 

@@ -22,10 +22,20 @@ grand_parent: Research
 
 [marssx86 official website](http://marss86.org/~marss86/index.php/Getting_Started) describes how to run simulator under gdb.
 
+first we need to build simulator with debug option
+
+```
+$ scons -Q debug=1
+or
+$ scons -Q debug=2
+```
+
+and then run under gdb with these commands
+
 ```
 $ gdb qemu/qemu-system-x86-64
 (gdb) handle SIGUSR1 SIGUSR2 noprint nostop
-run -m ~~
+(gdb) run -m ~~
 ```
 
 this process can be automated by creating .gdbinit file in the project repo.

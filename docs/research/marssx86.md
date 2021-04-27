@@ -18,6 +18,25 @@ grand_parent: Research
 
 ## 2021
 
+### Notes 04/27
+
+Questions
+- How to calculate DRAM memory size from config files.
+- How to measure bandwidth of each memory.
+- How to decide ROI of benchmark.
+- How to build benchmark and create disk image.
+
+Todo
+- implement migration engine and find a way to record migration overhead.
+
+### DRAMsim3
+
+I just finished reproducing plugging DRAMsim3 into Marssx86 and upload on my private github repo.<br>
+I found few things I need to check carefully.<br>
+1. the clock rate of l1m is 1.0GHz and that of l2m is 1.2GHz. is this a mistake?
+2. is_full function of memoryController is not implemented for two tiered memory system.
+3. all memory access is changed to read operation.
+
 ### Debugging
 
 [marssx86 official website](http://marss86.org/~marss86/index.php/Getting_Started) describes how to run simulator under gdb.<br>

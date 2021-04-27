@@ -20,8 +20,7 @@ grand_parent: Research
 
 ### Debugging
 
-[marssx86 official website](http://marss86.org/~marss86/index.php/Getting_Started) describes how to run simulator under gdb.
-
+[marssx86 official website](http://marss86.org/~marss86/index.php/Getting_Started) describes how to run simulator under gdb.<br>
 first we need to build simulator with debug option
 
 ```
@@ -39,10 +38,10 @@ $ gdb qemu/qemu-system-x86-64
 ```
 
 this process can be automated by creating .gdbinit file in the project repo.
-
 I just created .gdbinit only contains handle command because I need to set breakpoint manually
 before run the simulator.<br>
 GDB has an auto-load safe for security reason, so I created ~/.gdbinit file as shown below.
+
 ```
 set auto-load safe-path /
 ```
@@ -55,7 +54,3 @@ the original [source code](https://github.com/donggyukim/Marssx86) has a build e
 I fixed it and uploaded it on my github private repo.
 
 date: 04/27
-
-
-
-

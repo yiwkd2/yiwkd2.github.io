@@ -23,11 +23,11 @@ grand_parent: Research
 Questions
 - How to calculate DRAM memory size from config files.
 - How to measure bandwidth of each memory.
-- How to decide ROI of benchmark.
+- How to decide ROI of benchmark.<br>
 ptlcall_switch_to_sim(), ptlcall_switch_to_native() are called by benchmark.
 some benchmark calls these directly from ptlcalls.h and others bind these with benchmark specific functions.
 check ptlcalls.h (modified: 04/28)
-- How to build benchmark and create disk image.
+- How to build benchmark and create disk image.<br>
  this is not an issue. check marss, each benchmark offical website (modified: 04/28)
 
 Todo
@@ -45,7 +45,8 @@ I found few things I need to check carefully.<br>
 
 date: 04/27
 
-3. write-back from LLC needs to be send as write operation to DRAMsim3. However, simple write miss should be read operation for DRAMsim3 because of write-allocate policy.
+3. write-back from LLC needs to be a write operation for DRAMsim3.
+However, simple write miss should be a read operation for DRAMsim3 because of write-allocate policy.
 
 modified: 04/28
 

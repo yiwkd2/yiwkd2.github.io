@@ -24,18 +24,31 @@ Questions
 - How to calculate DRAM memory size from config files.
 - How to measure bandwidth of each memory.
 - How to decide ROI of benchmark.
+ptlcall_switch_to_sim(), ptlcall_switch_to_native() are called by benchmark.
+some benchmark calls these directly from ptlcalls.h and others bind these with benchmark specific functions.
+check ptlcalls.h (modified: 04/28)
 - How to build benchmark and create disk image.
+ this is not an issue. check marss, each benchmark offical website (modified: 04/28)
 
 Todo
 - implement migration engine and find a way to record migration overhead.
 
-### DRAMsim3
+date: 04/27
+
+### Regarding DRAMsim3
 
 I just finished reproducing plugging DRAMsim3 into Marssx86 and upload on my private github repo.<br>
 I found few things I need to check carefully.<br>
 1. the clock rate of l1m is 1.0GHz and that of l2m is 1.2GHz. is this a mistake?
 2. is_full function of memoryController is not implemented for two tiered memory system.
 3. all memory access is changed to read operation.
+
+date: 04/27
+
+3. write-back from LLC needs to be send as write operation to DRAMsim3. However, simple write miss should be read operation for DRAMsim3 because of write-allocate policy.
+
+modified: 04/28
+
 
 ### Debugging
 
@@ -66,6 +79,8 @@ set auto-load safe-path /
 ```
 
 I wanted to automate runing with arguments, hence this is not a good solution for that.
+
+date: 04/27
 
 ### qemu version conflict
 

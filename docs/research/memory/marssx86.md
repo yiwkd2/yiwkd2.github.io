@@ -18,6 +18,10 @@ grand_parent: Research
 
 ## 2021
 
+
+
+---
+
 ### Notes 04/27
 
 Questions
@@ -35,6 +39,8 @@ Todo
 
 date: 04/27
 
+---
+
 ### Regarding DRAMsim3
 
 I just finished reproducing plugging DRAMsim3 into Marssx86 and upload on my private github repo.<br>
@@ -50,6 +56,7 @@ However, simple write miss should be a read operation for DRAMsim3 because of wr
 
 modified: 04/28
 
+---
 
 ### Debugging
 
@@ -82,6 +89,20 @@ set auto-load safe-path /
 I wanted to automate runing with arguments, hence this is not a good solution for that.
 
 date: 04/27
+
+.gdbinit file
+```
+handle SIGUSR1 SIGUSR2 noprint nostop
+b ptlsim/build/core/ooo-core/ooo-pipe.cpp:104
+run -m 16384 -hda /home/youngin/research/memory/images/ubuntu-spec.img -simconfig sim.cfg -redir tcp:7001::22 -nographic
+```
+
+Whenever I use gdb for this project, I edit second line of .gdbinit file to set initial breakpoint.<br>
+
+modified: 05/05
+
+
+---
 
 ### qemu version conflict
 

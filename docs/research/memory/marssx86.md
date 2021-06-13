@@ -18,7 +18,15 @@ grand_parent: Research
 
 ## 2021
 
+---
 
+### Notes 06/13
+
+- there are two different namespace for L1M, L2M. I don't think we need two.
+- I want to move DRAMsim3 fold in marss folder, and completely integrate marss and DRAMsim3.
+- In order to implement memory controller logic for hybrid memory system, I need to have better understanding about DRAMsim3 and memory system.
+
+date: 06/13
 
 ---
 
@@ -34,7 +42,7 @@ check ptlcalls.h (modified: 04/28)
 - How to build benchmark and create disk image.<br>
  this is not an issue. check marss, each benchmark offical website (modified: 04/28)
 
-Todo
+**Todo**
 - implement migration engine and find a way to record migration overhead.
 
 date: 04/27

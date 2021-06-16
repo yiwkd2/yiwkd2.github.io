@@ -30,7 +30,7 @@ uncomment following line and save
 set bell-style none
 ```
 
-source change by reopening sesstion
+source change by reopening session
 
 ## vim
 

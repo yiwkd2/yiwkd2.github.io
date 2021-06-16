@@ -16,9 +16,9 @@ grand_parent: Research
 
 ---
 
-## /etc/inputrc
+## turn off system sound
 
-### turn off the bell
+### /etc/inputrc
 
 ```
 sudo vim /etc/inputrc
@@ -31,6 +31,8 @@ set bell-style none
 ```
 
 source change by reopening session
+
+P.S. this won't turn off bell sound from vim.
 
 ## vim
 

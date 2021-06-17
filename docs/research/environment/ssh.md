@@ -1,11 +1,11 @@
 ---
 layout: default
-title: vim 
-parent: Linux
-grand_parent: Interests
+title: ssh
+parent: Environment
+grand_parent: Research
 ---
 
-# vim
+# ssh
 {: .no_toc }
 
 ## Table of contents
@@ -16,6 +16,7 @@ grand_parent: Interests
 
 ---
 
-## 2021
+## TODO
 
-### Neovim setup
+- windows to linux
+- linux to linux

@@ -81,11 +81,11 @@ channels = 1
 bus_width = 64
 ```
 
-devices_per_rank = 64 / 8 = 8
-page_size = 1024 * 8 / 8 = 1024 (page size is 1KB)
-megs_per_bank = 1024 * (65536 / 1024) / 1024 = 64 (bank size is 64MB)
-megs_per_rank = 64MB * (4 * 4) * 8 = 8192MB (rank size is 8GB)
-ranks = 16384 / 8192 = 2 (# of ranks in this channel is 2)
+devices_per_rank = 64 / 8 = 8<br>
+page_size = 1024 * 8 / 8 = 1024 (page size is 1KB)<br>
+megs_per_bank = 1024 * (65536 / 1024) / 1024 = 64 (bank size is 64MB)<br>
+megs_per_rank = 64MB * (4 * 4) * 8 = 8192MB (rank size is 8GB)<br>
+ranks = 16384 / 8192 = 2 (# of ranks in this channel is 2)<br>
 
-Thus, this system has 1 channel, 2 ranks in this channel whose size is 8GB.
+Thus, this system has 1 channel, 2 ranks in this channel whose size is 8GB.<br>
 Is the size of this system 16GB? why does file name say its size is 8GB?

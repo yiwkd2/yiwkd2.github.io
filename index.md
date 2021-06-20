@@ -49,9 +49,6 @@ Computer architecture, Operating system, Hybrid memory system
 **Highest Honors Student Award**<br>
 **Yonsei University** (Feb. 2021)<br>
 
-**Honors Student Award**<br>
-**Yonsei University** (Aug. 2020)<br>
-
 **High Honors Student Award**<br>
 **Yonsei University** (Feb. 2020)<br>
 
@@ -66,9 +63,6 @@ Computer architecture, Operating system, Hybrid memory system
 
 **Young-Ah Yoo Academic Scholarship**<br>
 **Seoul Scholarship Foundation** (Jan. 2019 - Dec. 2019)<br>
-
-**Honors Student Award**<br>
-**Yonsei University** (Aug. 2018)<br>
 
 ---
 
